@@ -1,0 +1,48 @@
+table {
+    font-family: arial;
+    border: 2px
+    border-collapse:collapse;
+    width:100
+}
+td, th {
+    border: 5px solid #c288bc;
+    text-align: center;
+    padding: 6px
+
+}
+td{
+    background-color:#d394cf;
+}
+h1{
+    color:white;
+    font-family: 'Merienda', cursive;
+    font-weight: 600;
+    text-align:center;
+}
+h2{
+    color:white;
+    font-family: 'Merinda', cursive;
+    text-align: center;
+    font-weight: 500;
+}
+form {
+    font-family: 'Arial';
+    background-color:#ae70a6;
+    border: width=100%;
+}
+label {
+    border:collapse;
+}
+fieldset{
+    border: 20px solid;
+    border-radius: 10px;
+    background-color:#ae70a6;
+    font-size: 20px;
+    border-image: url("../bordinha.jpg") 150 round;
+
+}
+.corpinho{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;        
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="cardapium.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale= 1.0">
+        <title> Cardápio de tortinhas </title>
+    </head>
+    <body style="background-color:pink;">
+
+        <div class="corpinho">
+            <h1> Tortas da mimi  </h1>
+            <table style="width:100%;margin:auto">
+                <tr style="background-color:#ae70a6">
+                <th> Sabores </th>
+                <th> Bebidas </th>
+                <th> Valores </th>
+                </tr>
+                <tr>
+                <td> Morangoffe </td>
+                <td> Coca cola </td>
+                <td> R$15,00 </td>
+                </tr>
+                <tr>
+                <td> Banoffe </td>
+                <td> Pepsi </td>
+                <td> R$14,00 </td>
+                </tr>
+                <tr>
+                <td> Uvoffe </td>
+                <td> Fanta Uva </td>
+                <td> R$15,00 </td>
+            </table>
+            <h2> Cadastro do Cliente </h2>
+            <form action="/action_page.php"> 
+                <label for="fname"> Nome: </label></br>
+                <input type="text" id="fname" value=""</br></br>
+                <label for="lname"> Sobrenome: </label></br>
+                <input type="text" id="lname" value=""</br></br>
+                <input type="submit" value="Cadastro"></br>
+            </form>
+            <form action="action_page.php">
+                <label for="Tortas"> Escolha um sabor de torta </label>
+                <select id="Sabores" name="sabores">
+                    <option value="morangoffe"> Morangoffe </option>
+                    <option value="Banoffe"> Banoffe </option>
+                    <option value="uvoffe"> Uvoffe</option>
+                </select>
+                <input type="submit" value="Selecionar">
+            </form>
+        </div>
+    </body>
+</html>
+
