@@ -1,4 +1,4 @@
-function calculando(num1, num2 operacao){
+function calculando(num1, num2, operacao){
     let resposta 
     if (operacao === "*"){
         resposta = multiplicar(num1, num2)
@@ -10,7 +10,7 @@ function calculando(num1, num2 operacao){
         resposta = subtracao(num1,num2)
     }
 
-    
+
     document.getElementById("resultado").innerHTML = resposta
 } 
 
