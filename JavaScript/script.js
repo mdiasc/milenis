@@ -1,31 +1,41 @@
-function calcular(num1, num2, operacao){
-    let resposta 
-    if (operacao === "*"){
+function calcularDois(num1, num2, operacao) {
+    let resposta
+
+    if (operacao === "*") {
+
         resposta = multiplicar(num1, num2)
-    }else if(operacao === "/"){
-        resposta = divisao(num1,num2)
-    }else if(operacao === "+"){
-        resposta = adicao(num1,num2)
-    }else if(operacao === "-"){
-        resposta = subtracao(num1,num2)
+
+    } else if (operacao === "/") {
+
+        resposta = dividir(num1, num2)
+
+    } else if (operacao === "+") {
+
+        resposta = somar(num1, num2)
+
+    } else if (operacao === "-") {
+
+        resposta = subtrair(num1, num2)
+
     }
 
 
     document.getElementById("resultado").innerHTML = resposta
-} 
+    console.log("funcionou")
+}
 
-function multiplicar(num1, num2){
+function multiplicar(num1, num2) {
     return num1 * num2
 }
 
-function divisao(num1, num2){
+function dividir(num1, num2) {
     return num1 / num2
 }
 
-function adicao(num1, num2){
+function somar(num1, num2) {
     return num1 + num2
 }
 
-function subtracao(num1, num2){
+function subtrair(num1, num2) {
     return num1 - num2
 }
