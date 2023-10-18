@@ -1,4 +1,4 @@
-function calculando(num1, num2, operacao){
+function calcular(num1, num2, operacao){
     let resposta 
     if (operacao === "*"){
         resposta = multiplicar(num1, num2)
