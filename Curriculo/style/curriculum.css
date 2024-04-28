@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, 'Poppins';
+}
+main{
+    display: flex;
+    height: 100vh;
+    flex: 1;
+}
+section{
+    flex: 0.3;
+    width: 30vh;
+    background-color: #d9e1df;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+main section #perfil{
+    border-radius: 50%;
+    border: 2px solid #1c31a5;
+    width: 200px;
+    height: 200px;
+} 
+h3 img{
+    width: 30px;
+    height: 30px;
+}
+aside{
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside img{
+    width: 15px;
+    height: 15px;
+}
+hr{
+    width: 100%;
+    border: none;
+    border-top: 2px solid #1c31a5;
+}
+h1, p, h2, h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
